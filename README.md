@@ -170,10 +170,10 @@ Generative AI (Gen AI) represents a significant leap forward in artificial intel
 
 We would like to thank the following people who have contributed to this project:
 
-- **[ABINAYA S](https://github.com/yourusername)** - Project Lead, Backend Development
-- **[AKSHAYA SRINITHI S.V](https://github.com/contributor1)** - Frontend Development
-- **[SATHISH C](https://github.com/contributor2)** - UI/UX Design
-- **[SIVAPRASATH R](https://github.com/contributor3)** - Documentation
+- **[ABINAYA S](https://github.com/Abi2713)** - MERN Development,UI/UX Developer,Research Analyst
+- **[AKSHAYA SRINITHI S.V](https://github.com/akshayasrinithi)** - MERN Development,Stress Testing Specialist,System Administrator
+- **[SATHISH C](https://github.com/Sb-ragava)** - MERN Development,Software Architect
+- **[SIVAPRASATH R](https://github.com/Sivaprasath2003)** - Documentation
 
 ---
 
