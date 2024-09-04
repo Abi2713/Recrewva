@@ -1,0 +1,207 @@
+/* Updated styles for a more professional and modern look with Hexaware colors and modern touches */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F3F4F6; /* Light grey background */
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #F3F4F6; /* Updated background color */
+}
+
+.header {
+  background-color: #004B87; /* Hexaware blue */
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.05rem;
+  position: relative;
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #0064A2; /* Darker blue for profile button */
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.profile-button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  min-height: 80vh;
+}
+
+.left-section, .middle-section, .right-section {
+  flex: 1;
+  background-color: #FFFFFF; /* White background for sections */
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  max-width: 250px;
+}
+
+.middle-section {
+  max-width: 600px;
+  height: 600px; /* Fixed height for the middle section */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin;
+  scrollbar-color: #B0BEC5 transparent; /* Updated scrollbar color */
+}
+
+.middle-section::-webkit-scrollbar {
+  width: 8px;
+}
+
+.middle-section::-webkit-scrollbar-thumb {
+  background-color: #B0BEC5;
+  border-radius: 10px;
+}
+
+.middle-section::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.right-section {
+  max-width: 350px;
+}
+
+.filters, .search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.filter-box {
+  background-color: #ECEFF1; /* Light grey for filters */
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.filter-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.job-post {
+  background-color: #ECEFF1; /* Light grey for job postings */
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-post:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.job-tags {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  background-color: #CFD8DC; /* Lighter grey for tags */
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #CFD8DC;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #007BFF; /* Blue for search button */
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.search-title {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.job-description {
+  background-color: #ECEFF1; /* Light grey for job description */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.job-description:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.apply-button {
+  background-color: #28A745; /* Green for apply button */
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.apply-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

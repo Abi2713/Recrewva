@@ -1,0 +1,133 @@
+.profile-dashboard-container {
+    display: flex;
+    background: linear-gradient(135deg, #f2f2f2 0%, #ffffff 100%);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .sidebar {
+    width: 22%;
+    
+    background: #282c34;
+    padding: 20px;
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    background: #61dafb;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .sidebar-button:hover {
+    background: #21a1f1;
+    transform: translateY(-2px);
+  }
+  
+  .profile-details {
+    flex: 1;
+    padding: 30px;
+    max-width: 80%;
+  }
+  
+  .profile-header {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .detail {
+    margin-bottom: 20px;
+  }
+  
+  .detail label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #61dafb;
+    box-shadow: 0 0 8px rgba(97, 218, 251, 0.2);
+    outline: none;
+  }
+  
+  .small-input {
+    width: 48%;
+    display: inline-block;
+    margin-right: 4%;
+  }
+  
+  .add-button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .add-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
+  .update-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #61dafb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .update-button:hover {
+    background: #21a1f1;
+    transform: translateY(-2px);
+  }
+  

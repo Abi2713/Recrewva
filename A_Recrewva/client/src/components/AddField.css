@@ -1,0 +1,32 @@
+/* src/components/AddField.css */
+
+.add-field {
+    padding: 20px;
+  }
+  
+  .add-field h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-field label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-field input,
+  .add-field select {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .save-field-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  

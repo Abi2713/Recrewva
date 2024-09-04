@@ -1,0 +1,259 @@
+/* Recruiter Dashboard Container */
+.recruiter-dashboard-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #dbe9f4, #90a4ae);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide default scrollbar */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Recruiter Dashboard */
+.recruiter-dashboard {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; /* Enable scrolling */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Dashboard Header */
+.dashboard-header h1 {
+    font-size: 36px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+    animation: slideIn 0.8s ease-out;
+}
+
+/* Slide-in animation for header */
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Summary Section */
+.summary-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.summary-item {
+    flex: 1 1 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: zoomIn 0.8s ease-out;
+}
+
+/* Zoom-in animation for summary items */
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.summary-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.summary-item h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.summary-item p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* Button Section */
+.button-section {
+    margin-bottom: 40px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+/* New Button Style */
+.dashboard-button.new-style {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease;
+    animation: popIn 0.6s ease-out; /* Pop-in animation */
+}
+
+.dashboard-button.new-style::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.1);
+    transition: width 0.3s ease;
+    z-index: 0;
+}
+
+.dashboard-button.new-style:hover::after {
+    width: 100%;
+}
+
+.dashboard-button.new-style:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.dashboard-button.new-style:active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(0); /* Reset the lift effect */
+}
+
+.dashboard-button.new-style:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+/* Pop-in animation for buttons */
+@keyframes popIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.button-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    z-index: 1; /* Ensures the icon stays above the hover effect */
+}
+
+/* Activities & Interviews Sections Side by Side */
+.activities-and-interviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.activities-section,
+.upcoming-interviews-section {
+    flex: 1;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Activities Section */
+.activities-section h2,
+.upcoming-interviews-section h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.activities-list,
+.interviews-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Activities Section */
+.activities-list li,
+.interviews-list li {
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.activities-list li:hover,
+.interviews-list li:hover {
+    background-color: #e2e6ea;
+}
+
+/* Invisible Scrollbar Styling */
+.recruiter-dashboard::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.recruiter-dashboard {
+    scrollbar-width: none; /* For Firefox */
+}

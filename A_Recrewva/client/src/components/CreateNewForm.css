@@ -1,0 +1,73 @@
+/* src/components/FormCreation.css */
+
+.form-creation {
+    padding: 20px;
+  }
+  
+  .form-creation h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-inputs label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-inputs input,
+  .form-inputs select {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .form-fields-section {
+    margin-top: 20px;
+  }
+  
+  .form-fields-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .form-fields-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .form-fields-table th,
+  .form-fields-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .form-fields-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .add-field-button,
+  .save-form-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .edit-field-button,
+  .delete-field-button {
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .edit-field-button {
+    background-color: #28a745; /* Green for edit */
+  }
+  
+  .delete-field-button {
+    background-color: #dc3545; /* Red for delete */
+  }
+  
