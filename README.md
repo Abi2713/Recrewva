@@ -164,7 +164,16 @@ Once you have completed the installation and setup, you can begin using Recrewva
 
 ## Future Integration of Generative AI
 
-Generative AI (Gen AI) represents a significant leap forward in artificial intelligence, enabling systems to create new content, insights, and personalized experiences based on existing data. In Phase 2 of the Recrewva platform, we plan to integrate Gen AI capabilities to enhance the recruitment process by automating resume screening, generating insightful candidate reports, and personalizing job recommendations. This will provide a smarter, more efficient hiring experience.
+ Recrewva: AI-Powered Smart Recruiting PlatformWelcome to Recrewva, the next-generation recruitment platform combining AI and GenAI to revolutionize talent acquisition. Built with Azure OpenAI, Llama Index, and Hackingface models, Recrewva transforms traditional hiring with real-time, data-driven insights.
+ Key Innovations:Intelligent Candidate Matching: Leveraging Azure OpenAI and Llama Index, our AI interprets resumes and job descriptions contextually—beyond keyword matching.
+ 1.AI-Guided Interviews: Adaptive AI interviewers powered by Hackingface models, tailored in real-time to candidates’ responses.
+ 2.Predictive Analytics: Using vector embeddings for deep insights into talent trends and long-term fit.
+ 3.Interactive Dashboards: Recruiter-focused real-time insights using Streamlit for data-driven hiring decisions.
+ 4.Scalable Cloud Architecture: Powered by Azure/AWS, ensuring robust, secure, and flexible operations.
+ How It Works:Analyze & Match: Our AI parses resumes, understands candidate strengths, and provides real-time job matching.
+ AI Interviews: Smart interviewers evolve with each conversation, learning and improving dynamically.
+ Data Insights: Predict candidate success with multi-dimensional analysis using Python 3.11 and vector databases.
+ Cloud Scale: Seamless cloud integration ensures efficiency and adaptability for high-volume recruitment.
 
 ## Contributors
 
