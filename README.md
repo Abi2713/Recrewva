@@ -34,6 +34,17 @@ The project is built on the MERN stack, which includes:
 - **React.js**: Frontend library for building the user interface, including forms, dashboards, and job management screens.
 - **Node.js**: JavaScript runtime used to build the server-side of the application, managing the backend services and database interactions.
 
+  Versions used:
+1.Node.js: 18.x (LTS)
+
+2.Python: 3.9.x
+
+3.TensorFlow: 2.6.x (for Python) or TensorFlow.js 3.x (for Node.js)
+
+4.MongoDB: 6.0.x (Community Edition) or MongoDB Atlas (Free Tier)
+
+5.Visual Studio Code: Latest version
+
 ## Dependencies
 
 ### Frontend (React.js)
