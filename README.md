@@ -35,8 +35,6 @@ The project is built on the MERN stack, which includes:
 - **Node.js**: JavaScript runtime used to build the server-side of the application, managing the backend services and database interactions.
 
 ##  Versions used:
-
--  Versions used:
 - Python: 3.9.x
 - TensorFlow: 2.6.x (for Python) or TensorFlow.js 3.x (for Node.js)
 - MongoDB: 6.0.x (Community Edition) or MongoDB Atlas (Free Tier)
