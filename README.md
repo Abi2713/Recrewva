@@ -197,7 +197,6 @@ We would like to thank the following people who have contributed to this project
 - **[ABINAYA S](https://github.com/Abi2713)** - MERN Development,UI/UX Developer,Research Analyst
 - **[AKSHAYA SRINITHI S.V](https://github.com/akshayasrinithi)** - MERN Development,Stress Testing Specialist,System Administrator
 - **[SATHISH C](https://github.com/Sb-ragava)** - MERN Development,Software Architect
-- **[SIVAPRASATH R](https://github.com/Sivaprasath2003)** - Documentation
 
 ---
 
